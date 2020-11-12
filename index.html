@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+<title>Image Gallery</title>
+<style>
+#gallery {
+ position: relative;
+
+         }
+#gallery ul {
+  width: 250px;
+ list-style-type: none;
+          }
+#gallery li {
+ display: inline;
+ float: left;
+ padding: 10px;
+          }
+#gallery img {
+ border-style: none;
+          }
+#gallery a {
+ text-decoration: none;
+ color: #333;
+ font-style: italic;
+          }
+#gallery span {
+ display: none;
+           }
+#gallery a:hover span {
+ display: block;
+ position: absolute;
+ top: 10px;
+ left: 300px;
+ text-align: center;
+           }
+
+
+</head>
+
+<body>
+
+<div id="gallery">
+<ul>
+   <li><a href="photo1.jpg">
+   <img src="photo1thumb.jpg" width="100"
+   height="75" alt="Golden Gate Bridge">
+   <span><img src="photo1.jpg" width="250"
+   height="150" alt="Golden Gate Bridge">
+   <br>Golden Gate Bridge</span></a> </li>
+
+   <li><a href="photo2.jpg">
+   <img src="photo2thumb.jpg" width="100"
+   height="75" alt="California Beach">
+   <span><img src="photo2.jpg" width="250"
+   height="150" alt="California Beach">
+   <br>California Beach</span></a> </li>
+
+   <li><a href="photo3.jpg">
+   <img src="photo3thumb.jpg" width="100"
+   height="75" alt="Blue Beach">
+   <span><img src="photo3.jpg" width="250"
+   height="150" alt="Blue Beach">
+   <br>Blue Beach</span></a> </li>
+
+   <li><a href="photo4.jpg">
+   <img src="photo4thumb.png" width="100"
+   height="75" alt="Sunset Beach">
+   <span><img src="photo4.jpg" width="250"
+   height="150" alt="Sunset Beach">
+   <br>Sunset Beach</span></a> </li>
+</ul>
+</div>
+</body>
+</style>
+</html>
